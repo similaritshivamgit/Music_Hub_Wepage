@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:#252525;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+}
+#box1{
+    height: 100%;
+    width: 30%;
+    /* background-color: #252525; */
+    padding: 15px 15px;
+}
+#box1 h1{
+    color:aliceblue;
+}
+#box1 h3{
+    color:aliceblue;
+}
+#box1 img{
+    height: 25%;
+    width: 40%;
+    border-radius: 15px 15px;
+}  
+h2{
+    color: white;
+}
+#inner1{
+    height: 25%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    color: rgba(255, 255, 255, 0.799);
+    padding: 15px 15px;
+}
+#inner2{
+    height: 30%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    color: rgba(255, 255, 255, 0.727);
+    padding: 15px 15px;
+}
+#inner2 img{
+    height: 50%;
+    width: 50%;
+}
+#box2{
+    height: 100%;
+    width: 70%;
+    background-color: aliceblue; 
+    border-radius: 15px 15px; 
+    padding: 20px 20px; 
+    display: flex; 
+}
+#rbox2{
+    height: 100%;
+    width: 60%;
+    /* background-color: antiquewhite; */
+}
+#lbox2{
+    height: 100%;
+    width: 40%;
+    /* background-color: aquamarine; */
+    padding: 15px 15px;
+}
+#home{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(72, 37, 105);
+    border-radius: 15px 15px;
+    display: flex;
+}
+#home1{
+    height: 100%;
+    width: 50%;
+    /* background-color: aliceblue; */
+    color: whitesmoke;
+    padding: 10px 10px;
+}
+#hbutton{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px 50px;
+    color: black;
+    border: none;
+
+}
+#home2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px;
+}
+#playlist{
+    height: 20%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    border-radius: 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.play1{
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+    border-radius: 15px 15px;
+}
+.play1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px;
+}
+
+#treanding{
+    height: 18%;
+    width: 100%;
+    background-color: rgb(200, 153, 245);
+    border-radius: 15px 15px;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.tr1{
+    height: 45%;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 15px 15px;
+    border: none;
+    padding: 2px 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+.tr11{
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+}
+.tr11 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px;
+}
+.tr12{
+    height: 100%;
+    width: 50%;
+
+}
+.tr13{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+}
+.tr13 img{
+    height: 100%;
+    width: 25px;
+    border-radius: 50%;
+}
+
+#elem1{
+    height: 40%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    border-radius: 15px 15px;
+    padding: 15px;
+    
+}
+.el1{
+    height: 25%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    
+}
+.el11{
+    height: 90%;
+    width: 30%;
+    /* background-color: aqua; */
+    border-radius: 15px 15px;
+}
+.el11 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px;
+}
+#el12{
+    height: 100%;
+    width: 70%;
+    padding: 15px 15px;
+}
+#el12 p{
+    color: gray;
+}
+#elem2{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(53, 12, 91);
+    border-radius: 15px 15px;
+    padding: 30px 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display:block;
+    
+}
+#elem2 img{
+    height: 60%;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+.audioplay{
+    width: 100%;
+}
+.search{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 203, 254);
+    border-radius: 50px ;
+    justify-content: space-between;
+    border: solid rgb(86, 27, 154);
+    padding: 10px 10px;
+}
+.search input{
+    height: 70%;
+    width: 80%;
+    border-radius: 15px 15px;
+    border: none;
+}
